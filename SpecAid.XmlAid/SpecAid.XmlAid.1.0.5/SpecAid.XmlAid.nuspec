@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata>
+        <id>SpecAid.XmlAid</id>
+        <version>1.0.5</version>
+        <title>SpecAid.XmlAid</title>
+        <authors>gengle</authors>
+        <owners>ITA Group</owners>
+        <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+        <projectUrl>https://nuget.org/packages/SpecAid.XmlAid</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Provides Specflow extentions for XML Sources</description>
+        <summary>Provides Specflow extentions for XML Sources</summary>
+        <releaseNotes />
+        <copyright>ITA Group 2014</copyright>
+        <language>en-US</language>
+        <tags>Specflow</tags>
+        <dependencies>
+            <dependency id="netfx-guard" version="1.3.3.2" />
+        </dependencies>
+        <references>
+            <group targetFramework=".NETFramework4.0">
+                <reference file="XmlAid.dll" />
+            </group>
+        </references>
+    </metadata>
+</package>

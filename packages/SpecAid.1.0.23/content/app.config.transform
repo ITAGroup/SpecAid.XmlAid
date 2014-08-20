@@ -1,0 +1,6 @@
+﻿<configuration>
+    <appSettings>
+        <add key="SpecAidAssertWhenUnknownColumn" value="true" />
+        <add key="SpecAidUseHashTag" value="true" />
+    </appSettings>
+</configuration>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SpecAid.XmlAid</id>
+    <version>1.0.11</version>
+    <title>SpecAid.XmlAid</title>
+    <authors>gengle</authors>
+    <owners>ITA Group</owners>
+    <description>
+      Provides Specflow extentions for XML Sources
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Provides Specflow extentions for XML Sources
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/SpecAid.XmlAid</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>ITA Group 2014</copyright>
+    <tags>Specflow</tags>
+    <dependencies>
+      
+    </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
