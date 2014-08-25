@@ -9,7 +9,6 @@ using TechTalk.SpecFlow;
 
 namespace SpecAid.XmlAid
 {
-    [ExcludeFromCodeCoverage]
     public class XmlAidHelper
     {
         private List<IXmlAidFormatter> _formatters;
@@ -39,6 +38,7 @@ namespace SpecAid.XmlAid
             return sb.ToString();
         }
 
+        [ExcludeFromCodeCoverage]
         private static void ReportElementCountDifferences(Table table, List<XmlAidView> results)
         {
             if (table.Rows.Count() != results.Count())
