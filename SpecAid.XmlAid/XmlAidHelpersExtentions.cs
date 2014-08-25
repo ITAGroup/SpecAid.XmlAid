@@ -1,8 +1,10 @@
-﻿using System.Xml.Linq;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Xml.Linq;
 using TechTalk.SpecFlow;
 
 namespace SpecAid.XmlAid
 {
+    [ExcludeFromCodeCoverage]
     public static class XmlAidHelpersExtentions
     {
         public static void XmlCompareWithTable(this SpecAidHelper helper, XDocument document, Table table)

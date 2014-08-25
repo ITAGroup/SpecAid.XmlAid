@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
@@ -8,6 +9,7 @@ using TechTalk.SpecFlow;
 
 namespace SpecAid.XmlAid
 {
+    [ExcludeFromCodeCoverage]
     public class XmlAidHelper
     {
         private List<IXmlAidFormatter> _formatters;

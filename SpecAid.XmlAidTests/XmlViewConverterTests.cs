@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Xml.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -9,6 +10,7 @@ using SpecAid.XmlAid.Infrastructure.Formatters;
 namespace SpecAid.XmlAidTests
 {
     [TestClass]
+    [ExcludeFromCodeCoverage]
     public class XmlViewConverterTests
     {
         private List<IXmlAidFormatter> _formatters;

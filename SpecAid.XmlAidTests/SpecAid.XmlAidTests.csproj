@@ -54,6 +54,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlAidViewConverterTests.cs" />
+    <Compile Include="XmlAidViewTests.cs" />
     <Compile Include="XmlViewConverterTests.cs" />
   </ItemGroup>
   <ItemGroup>
